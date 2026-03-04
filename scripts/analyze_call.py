@@ -5,7 +5,7 @@ import uuid
 import glob
 
 # Gemini API key
-API_KEY = "AIzaSyDo_CJIbFvIuVOen6A1_cWPBlC6MSbSnqs"
+API_KEY = "YOUR API KEY"
 
 # Gemini API endpoint
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
