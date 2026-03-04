@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+
+    environment:
+      - N8N_ENABLE_COMMANDS=true
+      - NODE_FUNCTION_ALLOW_EXTERNAL=fs
+
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+      - ./dataset:/data/dataset
+      - ./outputs:/data/outputs
+      - ./scripts:/data/scripts

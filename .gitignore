@@ -1,0 +1,8 @@
+*.mp4
+dataset/
+outputs/
+n8n_data/
+__pycache__/
+*.pyc
+.env
+venv/
