@@ -1,5 +1,4 @@
 ## Clara AI – Zero-Cost Automation Pipeline
-
 ### Overview
 
 Clara AI is a zero-cost automation pipeline that converts service business call recordings into structured AI agent configurations for Clara, an AI voice assistant used by service trade companies (e.g., electricians, plumbers, HVAC).
